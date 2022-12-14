@@ -1,7 +1,8 @@
 import React from 'react';
+import './Main.scss';
 
 const Main = () => {
-  return <>안녕</>;
+  return <></>;
 };
 
 export default Main;
