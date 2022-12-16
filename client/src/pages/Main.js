@@ -1,18 +1,11 @@
 import React from 'react';
+import DocHeader from './DocHeader';
 import './Main.scss';
 
 const Main = () => {
   return (
     <div class="container-doc">
-      <header class="doc-header">
-        <div class="main_tit">
-          <div class="inner_main">
-            <h1 class="doc-title">
-              <a href="#none">DK Jobs</a>
-            </h1>
-          </div>
-        </div>
-      </header>
+      <DocHeader />
       <div class="container-search">
         <div class="sub_tit">
           <strong>DKTechin 구인 현황</strong>
