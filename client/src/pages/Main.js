@@ -26,8 +26,8 @@ const Main = () => {
       const jobList = response.data.jobList;
       console.log(jobList);
 
-      allData = job.List.sort((before, after) => {
-        return new DataTransfer(before.createAt) - new Data(after.createdAt);
+      allData = jobList.sort((before, after) => {
+        return new Date(before.createAt) - new Date(after.createdAt);
       });
       setData(allData);
     } catch (e) {
