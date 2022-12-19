@@ -8,7 +8,7 @@ const ContentArticle = props => {
     <article id="mainContent" className="content-article">
       <h3 className="screen_out">채용 목록</h3>
       <ul className="list_job">
-        {jobList && jobList.length ? (
+        {jobList.length ? (
           jobList.map((item, idx) => {
             return <JobItem key={idx} JobData={item} />;
           })
