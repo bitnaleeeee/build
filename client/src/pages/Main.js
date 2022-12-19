@@ -55,7 +55,7 @@ const Main = () => {
    * @param {string} str 검색값
    */
   const updateSearchStr = debounce(str => {
-    console.log('filteringCheck');
+    console.log('checkNumber');
     // 검색값 입력되었을 때
     if (str.length) {
       // 현재 검색어가 포함된 배열을 반환
