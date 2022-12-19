@@ -3,23 +3,29 @@ import './DocFooter.scss';
 
 const DocFooter = () => {
   return (
-    <footer class="doc-footer">
-      <div class="inner_footer">
+    <footer className="doc-footer">
+      <div className="inner_footer">
         <small>&copy; 2021 dktechin.com</small>
-        <div class="area_link">
+        <div className="area_link">
           <a
             target="_blank"
             href="https://dktechin.com/service/introduce/company"
+            rel="noopener noreferrer"
           >
             회사소개
           </a>
           <a
             target="_blank"
             href="https://dktechin.com/service/careers/process"
+            rel="noopener noreferrer"
           >
             채용절차
           </a>
-          <a target="_blank" href="https://dktechin.com/service/careers/job">
+          <a
+            target="_blank"
+            href="https://dktechin.com/service/careers/job"
+            rel="noopener noreferrer"
+          >
             직무소개
           </a>
         </div>
@@ -27,5 +33,4 @@ const DocFooter = () => {
     </footer>
   );
 };
-
 export default DocFooter;

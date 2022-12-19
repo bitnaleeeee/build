@@ -1,8 +1,5 @@
-
 .doc-main {
-
-  .inner-main{
-
+  .inner-main {
     .main-content {
       display: grid;
       grid-template-areas:
@@ -12,8 +9,9 @@
       overflow: scroll;
       padding: 29px 0 43px;
       background-color: #F8F8F9;
+    }
+    .content-feature {
+      grid-area: feature;
+    }
   }
 }
-
-}
-

@@ -1,4 +1,5 @@
 import React from 'react';
+import './DirectLink.scss';
 
 const DirectLink = () => {
   return (
@@ -8,5 +9,4 @@ const DirectLink = () => {
     </div>
   );
 };
-
 export default DirectLink;

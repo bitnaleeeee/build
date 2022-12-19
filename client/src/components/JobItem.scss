@@ -1,0 +1,147 @@
+.doc-main {
+  .content-article {
+    .list_job {
+      .job-item {
+        position: relative;
+        display: grid;
+        grid-template-columns: 400px 300px;
+        align-items: center;
+        height: 86px;
+        padding: 18px 0 20px;
+        box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.25);
+        box-sizing: border-box;
+        &+li {
+          margin-top: 7px;
+        }
+      }
+      .new {
+        &::before {
+          position: absolute;
+          left: 0;
+          top: 0;
+          z-index: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 3px;
+          height: 100%;
+          font-size: 10px;
+          color: #fff;
+          font-weight: bold;
+          letter-spacing: -1px;
+          background-color: #ffdd00;
+          content: 'NEW';
+        }
+        &::after {
+          position: absolute;
+          top: 24px;
+          left: -11px;
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          margin-right: 10px;
+          font-size: 25px;
+          color: #ffdd00;
+          content: "\f0a3";
+        }
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+    .title_job {
+      margin-left: 20px;
+      padding: 0 5px;
+      strong {
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 21px;
+        em {
+          display: inline-block;
+          margin-left: 10px;
+          font-size: 12px;
+          color: #999999;
+        }
+      }
+      .link_title {
+        display: inline-block;
+      }
+      .bundle_badge {
+        overflow-x: scroll;
+        display: block;
+        margin-top: 5px;
+        font-size: 0;
+        white-space: nowrap;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+        a {
+          display: inline-block;
+          height: 21px;
+          padding: 0 8px;
+          font-size: 10px;
+          color: #808080;
+          line-height: 21px;
+          background-color: #F0F0F0;
+          border-radius: 3px;
+          box-sizing: border-box;
+
+          &+a {
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+    .desc_job {
+      padding: 0 25px 0 5px;
+      text-align: right;
+
+      .badge_type {
+        display: inline-block;
+        height: 21px;
+        padding: 0 7px;
+        font-size: 10px;
+        font-weight: bold;
+        color: #fff;
+        line-height: 21px;
+        border-radius: 3px;
+        background-color: #3377FF;
+      }
+      .wrap_txt {
+        margin-top: 9px;
+        font-size: 0;
+
+        span+span {
+          margin-left: 10px;
+        }
+      }
+      .txt_day {
+        display: inline-block;
+        font-size: 12px;
+
+        &::before {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 400;
+          margin-right: 5px;
+          font-size: 10px;
+          content: "\f017";
+        }
+      }
+      .txt_location {
+        display: inline-block;
+        font-size: 12px;
+
+        &::before {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          margin-right: 5px;
+          font-size: 10px;
+          content: "\f3c5";
+        }
+      }
+    }
+  }
+}

@@ -3,10 +3,10 @@ import './DocHeader.scss';
 
 const DocHeader = () => {
   return (
-    <header class="doc-header">
-      <div class="main_tit">
-        <div class="inner_main">
-          <h1 class="doc-title">
+    <header className="doc-header">
+      <div className="main_tit">
+        <div className="inner_main">
+          <h1 className="doc-title">
             <a href="#none">DK Jobs</a>
           </h1>
         </div>
@@ -14,5 +14,4 @@ const DocHeader = () => {
     </header>
   );
 };
-
 export default DocHeader;

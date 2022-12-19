@@ -1,6 +1,6 @@
 import React from 'react';
-import './DocMain.scss';
 import ContentArticle from './ContentArticle';
+import './DocMain.scss';
 
 const DocMain = props => {
   const { jobList } = props;
@@ -15,5 +15,4 @@ const DocMain = props => {
     </main>
   );
 };
-
 export default DocMain;
