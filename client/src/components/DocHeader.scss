@@ -1,21 +1,23 @@
-.doc-header .main_tit {
-  background-color: #1A1A1A;
-}
-.doc-header .main_tit .inner_main{
-  display: grid;
-  justify-content: space-between;
-  grid-template-columns: 1fr 1fr; 
-  overflow: hidden;
-  width: 916px;
-  height: 79px;
-  margin: 0 auto;
-}
-.doc-header .doc-title {
-  float: left;
-  margin: 21px 0;
-}
-.doc-header .doc-title a {
-  display: block;
-  height: 37px;
-  color: #fff;
+.doc-header{
+  .main_tit {
+    background-color: #1A1A1A;
+    .inner_main{
+      display: grid;
+      justify-content: space-between;
+      grid-template-columns: 1fr 1fr; 
+      overflow: hidden;
+      width: 916px;
+      height: 79px;
+      margin: 0 auto;
+    }
+  }
+  .doc-title {
+    float: left;
+    margin: 21px 0;
+    a {
+      display: block;
+      height: 37px;
+      color: #fff;
+    }
+  }
 }

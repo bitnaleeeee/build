@@ -69,7 +69,7 @@ const Main = () => {
   };
 
   return (
-    <div>
+    <div className="main">
       <DirectLink />
       <div className="container-doc">
         <DocHeader />
