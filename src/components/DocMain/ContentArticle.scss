@@ -1,0 +1,38 @@
+.doc-main {
+  .content-article {
+    grid-area: content;
+    width: 700px;
+    margin-right: 29px;
+    .list_job {
+      margin-bottom: 27px;
+      .none-item {
+        padding: 20px 0;
+        font-size: 20px;
+        text-align: center;
+        color: #999;
+        &::before {
+          content: '!';
+          display: inline-block;
+          margin-right: 5px;
+          border: 1px solid #ccc;
+          border-radius: 50%;
+          width: 20px;
+          height: 20px;
+          text-align: center;
+          font-size: 15px;
+        }
+      }
+    }
+    .btn_more {
+      display: block;
+      width: 198px;
+      height: 36px;
+      margin: 0 auto;
+      font-size: 13px;
+      font-weight: bold;
+      color: #fff;
+      border-radius: 25px;
+      background-color: #00ACFF;
+    }
+  }
+}

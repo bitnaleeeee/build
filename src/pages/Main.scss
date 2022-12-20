@@ -1,0 +1,27 @@
+.state-msg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #999;
+
+  &:before {
+    content: '!';
+    display: inline-block;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+.main {
+  .container-doc {
+    min-width: 1180px;
+  }
+}
