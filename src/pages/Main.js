@@ -28,7 +28,8 @@ const Main = () => {
       setLoading(true);
 
       // 직업 데이터 받아오기
-      const response = await axios.get("http://localhost:3001/rest/v1/jobs");
+      // const response = await axios.get("http://localhost:3001/rest/v1/jobs");
+      const response = await axios.get("https://port-0-build-api-ngsnp25lbw9tcdq.gksl2.cloudtype.app/rest/v1/jobs");
 
       // 응답 직업 데이터
       const jobList = response.data.jobList;
