@@ -8,7 +8,7 @@ function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/build" element={<Main />} />
       </Routes>
     </BrowserRouter>
   );
